@@ -1,0 +1,109 @@
+/node_modules
+
+yarn-error.log
+
+# OSX
+#
+.DS_Store
+
+# project
+#
+/src/build
+/resources/static/**/*.map
+/resources/**/*.doc*
+/resources/**/*.pdf
+/resources/**/*.xls*
+/resources/**/*.txt
+/vendor
+.sftpConfig.json
+src/dist
+public/cdn/demo
+resources/views/demo
+public/cdn/biz/css/bundle.9d2a8.css
+coverage
+.nyc_output
+offline_json
+.tmp
+tmp
+debug.log
+
+# config
+#
+sftp-config.json
+sftp-config*
+sftp-config-alt.json
+sftp-config-alt2.json
+sftp-config-alt3.json
+deployment-config.json
+
+# npm
+#
+npm-debug.log
+
+# yarn
+#
+yarn-error.log
+
+# node.js
+#
+node_modules
+node_modules*
+/src/node_modules
+/resources/node_modules
+
+# typescript
+#
+tsconfig.json
+
+# db
+#
+Thumbs.db
+
+# ide
+#
+.idea
+/.idea
+
+# sublime
+#
+*.sublime-project
+*.sublime-workspace
+ec_week.sublime-project
+ec_week.sublime-workspace
+
+# vscode
+#
+.vscode
+/.vscode
+jsconfig.json
+
+# vim
+#
+*.swp
+*.swo
+*.~
+Session.vim
+
+# tmux
+#
+tmux*.log
+
+# others
+#
+test
+*.orig
+task.json
+.cache-loader
+bash.exe.stackdump
+dist_*
+
+# www.staticec.com  打包后的文件
+old/www/common/include/
+min
+old/offlinePackage/pc/www.staticec.com/
+
+hs_err_*.log
+
+
+.eslintrc
+.history
