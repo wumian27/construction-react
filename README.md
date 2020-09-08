@@ -1,1 +1,1 @@
-# construction-react
+动态依赖库，多线打包，css加后缀，项目架构
