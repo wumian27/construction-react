@@ -8,6 +8,6 @@ module.exports = {
         }
     ],
     '@babel/preset-react',
-    '@babel/preset-typescript'
+    '@babel/preset-typescript'  // 配置支持typescript 跟@babel/preset-typescript
     ]
 }
