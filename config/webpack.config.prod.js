@@ -25,7 +25,18 @@ const config  = merge(baseConfig, {
         )]
     },
     plugins: [
-        new BundleAnalyzerPlugin(),
+        new BundleAnalyzerPlugin({
+            analyzerMode: 'server',
+            analyzerHost: '127.0.0.1',
+            analyzerPort: 7778,
+            reportFilename: 'report.html',
+            defaultSizes: 'parsed',
+            openAnalyzer: true,
+            generateStatsFile: false,
+            statsFilename: 'stats.json',
+            statsOptions: null,
+            logLevel: 'info'
+        }),
         // 删除空的dist，再写入
         new CleanWebpackPlugin(),
         new ProgressBarPlugin(),

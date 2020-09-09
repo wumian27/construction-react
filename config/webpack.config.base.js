@@ -9,7 +9,7 @@ module.exports = {
     entry: path.resolve(__dirname, "../view/index"),
     output: {
         filename: "[name].[hash].js",
-        path: path.resolve(__dirname, "../dist"),
+        path: path.resolve(__dirname, "../resource"),
     },
     resolve: {
         // 必须配置完整，否则 react-dom报错

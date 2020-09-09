@@ -1,9 +1,13 @@
 const baseConfig = require('../config/webpack.config.base');
 const { merge } = require('webpack-merge'); // 版本升级变成 {}
+const webpack = require('webpack');
 const path = require('path')
 
 const config  = merge(baseConfig, {
     mode:'development',
+    plugins:[
+        new webpack.HotModuleReplacementPlugin(),
+    ],
     devServer:{
         port: 3000,
         open: true,
