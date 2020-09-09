@@ -4,12 +4,13 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const loader = require("sass-loader");
+const webpack = require("webpack");
 
 module.exports = {
     entry: path.resolve(__dirname, "../view/index"),
     output: {
         filename: "[name].[hash].js",
-        path: path.resolve(__dirname, "../resource"),
+        path: path.resolve(__dirname, "../resource/view"),
     },
     resolve: {
         // 必须配置完整，否则 react-dom报错
@@ -120,6 +121,9 @@ module.exports = {
             filename: "index.html",
             template: path.resolve(__dirname, "../public/index.html"),
             hash: true,
+        }),
+        new webpack.DllReferencePlugin({
+            manifest: require('../resource/vendor-manifest.json')
         }),
         // 抽离 css
         new MiniCssExtractPlugin({
