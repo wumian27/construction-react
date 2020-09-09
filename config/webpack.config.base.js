@@ -44,6 +44,9 @@ module.exports = {
                             modules: true, // 启动css module
                         },
                     },
+                    {
+                        loader: 'postcss-loader'
+                    }
                 ],
             },
             {
@@ -61,6 +64,9 @@ module.exports = {
                     {
                         loader: "sass-loader",
                     },
+                    {
+                        loader: 'postcss-loader'
+                    }
                 ],
             },
             {
@@ -78,6 +84,9 @@ module.exports = {
                     {
                         loader: "less-loader",
                     },
+                     {
+                        loader: 'postcss-loader'
+                    }
                 ],
             },
 
