@@ -7,6 +7,9 @@ const config  = merge(baseConfig, {
     mode:'development',
     plugins:[
         new webpack.HotModuleReplacementPlugin(),
+        new webpack.DllReferencePlugin({
+            manifest: require('../resource/vendor-manifest.json')
+        }),
     ],
     devServer:{
         port: 3000,

@@ -3,9 +3,8 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
-const loader = require("sass-loader");
 const webpack = require("webpack");
-
+const HardSourceWebpackPlugin = require('hard-source-webpack-plugin')
 module.exports = {
     entry: path.resolve(__dirname, "../src/view/index"),
     output: {
@@ -27,14 +26,23 @@ module.exports = {
             {
                 test: /\.(js|ts)x?$/,
                 exclude: /node_modules/,
-                use: {
-                    loader: "babel-loader?cacheDirectory=true",
-                },
+                use: [
+                    {
+                        loader: "cache-loader",
+                        options: {
+                            cacheDirectory: path.resolve('.cache-loader')
+                        }
+                    },
+                    {
+                        loader: "babel-loader?cacheDirectory=true",
+                    }
+                    ,]
             },
             {
                 test: /\.css$/,
                 // exclude: /node_modules/,
                 use: [
+                    // 'cache-loader',
                     MiniCssExtractPlugin.loader,
                     // {
                     //     loader: 'style-loader'
@@ -53,6 +61,12 @@ module.exports = {
             {
                 test: /\.sass$/, // 处理sass文件
                 use: [
+                    {
+                        loader: "cache-loader",
+                        options: {
+                            cacheDirectory: path.resolve('.cache-loader')
+                        }
+                    },
                     MiniCssExtractPlugin.loader,
                     {
                         loader: "css-loader",
@@ -73,6 +87,12 @@ module.exports = {
             {
                 test: /\.less$/, // 处理less文件
                 use: [
+                    {
+                        loader: "cache-loader",
+                        options: {
+                            cacheDirectory: path.resolve('.cache-loader')
+                        }
+                    },
                     MiniCssExtractPlugin.loader,
                     {
                         loader: "css-loader",
@@ -85,7 +105,7 @@ module.exports = {
                     {
                         loader: "less-loader",
                     },
-                     {
+                    {
                         loader: 'postcss-loader'
                     }
                 ],
@@ -163,12 +183,13 @@ module.exports = {
             template: path.resolve(__dirname, "../src/view/index.html"),
             hash: true,
         }),
-        new webpack.DllReferencePlugin({
-            manifest: require('../resource/vendor-manifest.json')
-        }),
+
         // 抽离 css
         new MiniCssExtractPlugin({
             filename: "css/[name].[hash].css",
         }),
+
+        // 缓存
+        new HardSourceWebpackPlugin(),
     ],
 };
