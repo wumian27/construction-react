@@ -1,10 +1,14 @@
 const path = require("path");
+const chalk = require('chalk');
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const webpack = require("webpack");
-const HardSourceWebpackPlugin = require('hard-source-webpack-plugin')
+const HardSourceWebpackPlugin = require('hard-source-webpack-plugin');
+
+let buildRunning = false;
+let startTime = 0;
 module.exports = {
     entry: path.resolve(__dirname, "../src/view/index"),
     output: {
@@ -204,7 +208,28 @@ module.exports = {
         new HardSourceWebpackPlugin(),
 
         // 忽略moment
-        new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/)
+        new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
+
+        // new webpack.ProgressPlugin({
+        //     handler: (percentage, msg) => {
+        //         const stream = process.stderr;
+
+        //         if (!buildRunning) {
+        //             buildRunning = true;
+        //             startTime = new Date();
+        //         } else if (stream.isTTY && percentage < 0.71) {
+        //             stream.cursorTo(0);
+        //             stream.write(`${chalk.magenta(`${msg} ${Math.round(percentage * 100)}%`)}`);
+        //             stream.clearLine(1);
+        //         } else if (percentage === 1) {
+        //             const now = new Date();
+        //             const buildTime = `${(now - startTime) / 1000}s`;
+        //             console.log(chalk.green(`\nwebpack: bundle build completed in ${buildTime}.`));
+
+        //             buildRunning = false;
+        //         }
+        //     },
+        // }),
     ],
 
     // 只是表面错误，看有没有其他的
