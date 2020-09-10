@@ -1,4 +1,4 @@
-const baseConfig = require('../config/webpack.config.base');
+const baseConfig = require('../webpack/webpack.config.base');
 const { merge } = require('webpack-merge'); // 版本升级变成 {}
 const webpack = require('webpack');
 const path = require('path')

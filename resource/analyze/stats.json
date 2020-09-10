@@ -1,0 +1,1717 @@
+{
+  "errors": [
+  ],
+  "warnings": [
+  ],
+  "version": "4.44.1",
+  "hash": "1a9436b12310c3459d70",
+  "time": 3308,
+  "builtAt": 1599705732290,
+  "publicPath": "",
+  "outputPath": "F:\\construction-react\\resource\\view",
+  "assetsByChunkName": {
+    "main": [
+      "css/main.b5ccf1bbbb3697da2b7f.css",
+      "main.b5ccf1bbbb3697da2b7f.js"
+    ]
+  },
+  "assets": [
+    {
+      "name": "css/main.b5ccf1bbbb3697da2b7f.css",
+      "size": 110,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "index.html",
+      "size": 2651,
+      "chunks": [
+      ],
+      "chunkNames": [
+      ],
+      "info": {
+      },
+      "emitted": true
+    },
+    {
+      "name": "main.b5ccf1bbbb3697da2b7f.js",
+      "size": 8692,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "immutable": true,
+        "minimized": true
+      },
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "css/main.b5ccf1bbbb3697da2b7f.css",
+        "main.b5ccf1bbbb3697da2b7f.js"
+      ],
+      "children": {
+      },
+      "childAssets": {
+      }
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "css/main.b5ccf1bbbb3697da2b7f.css",
+        "main.b5ccf1bbbb3697da2b7f.js"
+      ],
+      "children": {
+      },
+      "childAssets": {
+      }
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 1970,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "css/main.b5ccf1bbbb3697da2b7f.css",
+        "main.b5ccf1bbbb3697da2b7f.js"
+      ],
+      "hash": "b5ccf1bbbb3697da2b7f",
+      "siblings": [
+      ],
+      "parents": [
+      ],
+      "children": [
+      ],
+      "childrenByOrder": {
+      },
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "delegated 0 from dll-reference vendor_library",
+          "name": "delegated ./node_modules/react/index.js from dll-reference vendor_library",
+          "index": 1,
+          "index2": 1,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx",
+          "issuerId": null,
+          "issuerName": "./view/index.tsx",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx",
+              "name": "./view/index.tsx"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx 46945d29009b3bcce7ed0e751c51175b",
+              "module": "./view/index.tsx + 2 modules",
+              "moduleName": "./view/index.tsx + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-26"
+            },
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx 46945d29009b3bcce7ed0e751c51175b",
+              "module": "./view/index.tsx + 2 modules",
+              "moduleName": "./view/index.tsx + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-26"
+            },
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx 46945d29009b3bcce7ed0e751c51175b",
+              "module": "./view/index.tsx + 2 modules",
+              "moduleName": "./view/index.tsx + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "4:30-35"
+            },
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx 46945d29009b3bcce7ed0e751c51175b",
+              "module": "./view/index.tsx + 2 modules",
+              "moduleName": "./view/index.tsx + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "6:22-27"
+            },
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx 46945d29009b3bcce7ed0e751c51175b",
+              "module": "./view/index.tsx + 2 modules",
+              "moduleName": "./view/index.tsx + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "8:123-128"
+            },
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx 46945d29009b3bcce7ed0e751c51175b",
+              "module": "./view/index.tsx + 2 modules",
+              "moduleName": "./view/index.tsx + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "10:31-36"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "id": 1,
+          "identifier": "F:\\construction-react\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!F:\\construction-react\\node_modules\\css-loader\\dist\\cjs.js??ref--7-1!F:\\construction-react\\node_modules\\less-loader\\dist\\cjs.js!F:\\construction-react\\node_modules\\postcss-loader\\dist\\cjs.js!F:\\construction-react\\view\\app.less",
+          "name": "./view/app.less",
+          "index": 5,
+          "index2": 4,
+          "size": 94,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\App.tsx",
+          "issuerId": null,
+          "issuerName": "./view/App.tsx",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx",
+              "name": "./view/index.tsx"
+            },
+            {
+              "id": null,
+              "identifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\App.tsx",
+              "name": "./view/App.tsx"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx 46945d29009b3bcce7ed0e751c51175b",
+              "module": "./view/index.tsx + 2 modules",
+              "moduleName": "./view/index.tsx + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./app.less",
+              "loc": "2:0-32"
+            },
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx 46945d29009b3bcce7ed0e751c51175b",
+              "module": "./view/index.tsx + 2 modules",
+              "moduleName": "./view/index.tsx + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "./app.less",
+              "loc": "7:15-21"
+            },
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx 46945d29009b3bcce7ed0e751c51175b",
+              "module": "./view/index.tsx + 2 modules",
+              "moduleName": "./view/index.tsx + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "./app.less",
+              "loc": "9:15-21"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2,
+          "source": "// extracted by mini-css-extract-plugin\nmodule.exports = {\"text\":\"_2d2dji\",\"text1\":\"_2YdL-w\"};"
+        },
+        {
+          "id": 2,
+          "identifier": "external \"vendor_library\"",
+          "name": "external \"vendor_library\"",
+          "index": 2,
+          "index2": 0,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "delegated 17 from dll-reference vendor_library",
+          "issuerId": 3,
+          "issuerName": "delegated ./node_modules/react-dom/index.js from dll-reference vendor_library",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx",
+              "name": "./view/index.tsx"
+            },
+            {
+              "id": 3,
+              "identifier": "delegated 17 from dll-reference vendor_library",
+              "name": "delegated ./node_modules/react-dom/index.js from dll-reference vendor_library"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "delegated 0 from dll-reference vendor_library",
+              "module": "delegated ./node_modules/react/index.js from dll-reference vendor_library",
+              "moduleName": "delegated ./node_modules/react/index.js from dll-reference vendor_library",
+              "type": "delegated source",
+              "userRequest": "dll-reference vendor_library"
+            },
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "delegated 17 from dll-reference vendor_library",
+              "module": "delegated ./node_modules/react-dom/index.js from dll-reference vendor_library",
+              "moduleName": "delegated ./node_modules/react-dom/index.js from dll-reference vendor_library",
+              "type": "delegated source",
+              "userRequest": "dll-reference vendor_library"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2
+        },
+        {
+          "id": 3,
+          "identifier": "delegated 17 from dll-reference vendor_library",
+          "name": "delegated ./node_modules/react-dom/index.js from dll-reference vendor_library",
+          "index": 3,
+          "index2": 2,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx",
+          "issuerId": null,
+          "issuerName": "./view/index.tsx",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx",
+              "name": "./view/index.tsx"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx 46945d29009b3bcce7ed0e751c51175b",
+              "module": "./view/index.tsx + 2 modules",
+              "moduleName": "./view/index.tsx + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react-dom",
+              "loc": "2:0-33"
+            },
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx 46945d29009b3bcce7ed0e751c51175b",
+              "module": "./view/index.tsx + 2 modules",
+              "moduleName": "./view/index.tsx + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react-dom",
+              "loc": "4:0-8"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "id": 4,
+          "identifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx 46945d29009b3bcce7ed0e751c51175b",
+          "name": "./view/index.tsx + 2 modules",
+          "index": 0,
+          "index2": 7,
+          "size": 1616,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "F:\\construction-react\\view\\index",
+              "loc": "main"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Cannot concat with ./view/app.less (<- Module is not an ECMAScript module)",
+            "ModuleConcatenation bailout: Cannot concat with delegated ./node_modules/react/index.js from dll-reference vendor_library (<- Module is not an ECMAScript module)",
+            "ModuleConcatenation bailout: Cannot concat with delegated ./node_modules/react-dom/index.js from dll-reference vendor_library (<- Module is not an ECMAScript module)"
+          ],
+          "depth": 0,
+          "modules": [
+            {
+              "id": null,
+              "identifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx",
+              "name": "./view/index.tsx",
+              "index": 0,
+              "index2": 7,
+              "size": 181,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [
+              ],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "F:\\construction-react\\view\\index",
+                  "loc": "main"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+              ],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is an entry point"
+              ],
+              "depth": 0,
+              "source": "import React from 'react';\nimport ReactDOM from 'react-dom';\nimport App from './App';\nReactDOM.render( /*#__PURE__*/React.createElement(App, null), document.getElementById('root'));"
+            },
+            {
+              "id": null,
+              "identifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\App.tsx",
+              "name": "./view/App.tsx",
+              "index": 4,
+              "index2": 6,
+              "size": 509,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+              ],
+              "issuer": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx",
+              "issuerId": null,
+              "issuerName": "./view/index.tsx",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx",
+                  "name": "./view/index.tsx"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [
+              ],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx",
+                  "module": "./view/index.tsx",
+                  "moduleName": "./view/index.tsx",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./App",
+                  "loc": "3:0-24"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx",
+                  "module": "./view/index.tsx",
+                  "moduleName": "./view/index.tsx",
+                  "type": "harmony import specifier",
+                  "userRequest": "./App",
+                  "loc": "4:50-53"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+              ],
+              "depth": 1,
+              "source": "import React from 'react';\nimport styles from './app.less';\nimport img from '../static/image_female.png';\n\nvar App = function App() {\n  return /*#__PURE__*/React.createElement(\"div\", {\n    className: styles.text\n  }, \" \\u4ECE\\u96F6\\u5F00\\u59CB\\u624B\\u5199webpack\\u642D\\u5EFAreact\\u9879\\u76EE \\u70ED\\u66F4\\u65B0gitgnore \", /*#__PURE__*/React.createElement(\"span\", {\n    className: styles.text1\n  }, \"red\"), \" \", /*#__PURE__*/React.createElement(\"img\", {\n    src: img,\n    alt: \"\"\n  }));\n};\n\nexport default App;"
+            },
+            {
+              "id": null,
+              "identifier": "F:\\construction-react\\node_modules\\url-loader\\dist\\cjs.js??ref--9!F:\\construction-react\\static\\image_female.png",
+              "name": "./static/image_female.png",
+              "index": 7,
+              "index2": 5,
+              "size": 911,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+              ],
+              "issuer": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\App.tsx",
+              "issuerId": null,
+              "issuerName": "./view/App.tsx",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx",
+                  "name": "./view/index.tsx"
+                },
+                {
+                  "id": null,
+                  "identifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\App.tsx",
+                  "name": "./view/App.tsx"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [
+              ],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\App.tsx",
+                  "module": "./view/App.tsx",
+                  "moduleName": "./view/App.tsx",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "../static/image_female.png",
+                  "loc": "3:0-45"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\App.tsx",
+                  "module": "./view/App.tsx",
+                  "moduleName": "./view/App.tsx",
+                  "type": "harmony import specifier",
+                  "userRequest": "../static/image_female.png",
+                  "loc": "11:9-12"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+              ],
+              "depth": 2,
+              "source": "export default \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAkZJREFUSA21lc9rE1EQx2dWE1BzCsYfSLx58haxitJDBPHeSkCE2ODBeCnV9lJBvChe2oYWYunRggfxInqq6D8gFPHuQY+a6EGjWW12x++sbdGX9za7rX0wu+/NfGc+b/Ylu0wJhiwtZajTuQnpFVgR9g32BvaYisVHXKkEmMcOjo0iCMheQJ6SyHmrlvk1FQrnuFr9bo2vO724YBTrdO47ISoQGaJW68GgOrEdSaNxmILgPYpkBxT6hfgRnppqu3TxHQVBJQFEa+tGLuvENeJBzKOuRIt/xOLbdDlBsry8D6ozm8rBk9PrOValE4QDHsJB77Jm2Z1ZareH7SEiN0jkpCvJ6Rcpu2JuEPNxV5LTvyUQkXN3ThBzSRYWCra4tSOZmbmA89FXTbqhZ7q2VrclWUHEfNsmTuiblvn5o6a2DyRzc8Po5qwpTLwW2UO93iVT3wcC5Cs6+mEKU6z1dfTC1PeBeHLyLWBdU5hincVGP5j6PlAkYA5NYaq152VMvR0kcmPLjw/fJ56Y+GiCnJ8JWVw8QN3uKQrDg4Bex+MsmcnRmvkL7vdg+hTeUT7/kms1P4r9dbF3pIJ6vQVAF3bRCVGdSB7Xa9B9olxuxQZR2T8diYhHjYb+tEdRYASW9k/7GblPAH1OmcwrHh//qRAdEUiazRz5/i0UrsF3KIps98KsX9smlUp3uVzueVEXvr8CyPR/g+gmRfbD7tDq6jNlsMzOVuF4qLEdG5435gFydccAG4XDcGw35ic21onvzJJY+0d47DfwGLWbDHzMMQAAAABJRU5ErkJggg==\""
+            }
+          ],
+          "filteredModules": 0
+        },
+        {
+          "id": "",
+          "identifier": "css F:\\construction-react\\node_modules\\css-loader\\dist\\cjs.js??ref--7-1!F:\\construction-react\\node_modules\\less-loader\\dist\\cjs.js!F:\\construction-react\\node_modules\\postcss-loader\\dist\\cjs.js!F:\\construction-react\\view\\app.less 0",
+          "name": "css ./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./view/app.less",
+          "index": 6,
+          "index2": 3,
+          "size": 134,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "F:\\construction-react\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!F:\\construction-react\\node_modules\\css-loader\\dist\\cjs.js??ref--7-1!F:\\construction-react\\node_modules\\less-loader\\dist\\cjs.js!F:\\construction-react\\node_modules\\postcss-loader\\dist\\cjs.js!F:\\construction-react\\view\\app.less",
+          "issuerId": 1,
+          "issuerName": "./view/app.less",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx",
+              "name": "./view/index.tsx"
+            },
+            {
+              "id": null,
+              "identifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\App.tsx",
+              "name": "./view/App.tsx"
+            },
+            {
+              "id": 1,
+              "identifier": "F:\\construction-react\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!F:\\construction-react\\node_modules\\css-loader\\dist\\cjs.js??ref--7-1!F:\\construction-react\\node_modules\\less-loader\\dist\\cjs.js!F:\\construction-react\\node_modules\\postcss-loader\\dist\\cjs.js!F:\\construction-react\\view\\app.less",
+              "name": "./view/app.less"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "F:\\construction-react\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!F:\\construction-react\\node_modules\\css-loader\\dist\\cjs.js??ref--7-1!F:\\construction-react\\node_modules\\less-loader\\dist\\cjs.js!F:\\construction-react\\node_modules\\postcss-loader\\dist\\cjs.js!F:\\construction-react\\view\\app.less",
+              "module": "./view/app.less",
+              "moduleName": "./view/app.less"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "F:\\construction-react\\view\\index",
+          "reasons": [
+          ]
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "delegated 0 from dll-reference vendor_library",
+      "name": "delegated ./node_modules/react/index.js from dll-reference vendor_library",
+      "index": 1,
+      "index2": 1,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx",
+      "issuerId": null,
+      "issuerName": "./view/index.tsx",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx",
+          "name": "./view/index.tsx"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx 46945d29009b3bcce7ed0e751c51175b",
+          "module": "./view/index.tsx + 2 modules",
+          "moduleName": "./view/index.tsx + 2 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "1:0-26"
+        },
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx 46945d29009b3bcce7ed0e751c51175b",
+          "module": "./view/index.tsx + 2 modules",
+          "moduleName": "./view/index.tsx + 2 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "1:0-26"
+        },
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx 46945d29009b3bcce7ed0e751c51175b",
+          "module": "./view/index.tsx + 2 modules",
+          "moduleName": "./view/index.tsx + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "4:30-35"
+        },
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx 46945d29009b3bcce7ed0e751c51175b",
+          "module": "./view/index.tsx + 2 modules",
+          "moduleName": "./view/index.tsx + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "6:22-27"
+        },
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx 46945d29009b3bcce7ed0e751c51175b",
+          "module": "./view/index.tsx + 2 modules",
+          "moduleName": "./view/index.tsx + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "8:123-128"
+        },
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx 46945d29009b3bcce7ed0e751c51175b",
+          "module": "./view/index.tsx + 2 modules",
+          "moduleName": "./view/index.tsx + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "10:31-36"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "id": 1,
+      "identifier": "F:\\construction-react\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!F:\\construction-react\\node_modules\\css-loader\\dist\\cjs.js??ref--7-1!F:\\construction-react\\node_modules\\less-loader\\dist\\cjs.js!F:\\construction-react\\node_modules\\postcss-loader\\dist\\cjs.js!F:\\construction-react\\view\\app.less",
+      "name": "./view/app.less",
+      "index": 5,
+      "index2": 4,
+      "size": 94,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\App.tsx",
+      "issuerId": null,
+      "issuerName": "./view/App.tsx",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx",
+          "name": "./view/index.tsx"
+        },
+        {
+          "id": null,
+          "identifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\App.tsx",
+          "name": "./view/App.tsx"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx 46945d29009b3bcce7ed0e751c51175b",
+          "module": "./view/index.tsx + 2 modules",
+          "moduleName": "./view/index.tsx + 2 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./app.less",
+          "loc": "2:0-32"
+        },
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx 46945d29009b3bcce7ed0e751c51175b",
+          "module": "./view/index.tsx + 2 modules",
+          "moduleName": "./view/index.tsx + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "./app.less",
+          "loc": "7:15-21"
+        },
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx 46945d29009b3bcce7ed0e751c51175b",
+          "module": "./view/index.tsx + 2 modules",
+          "moduleName": "./view/index.tsx + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "./app.less",
+          "loc": "9:15-21"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2,
+      "source": "// extracted by mini-css-extract-plugin\nmodule.exports = {\"text\":\"_2d2dji\",\"text1\":\"_2YdL-w\"};"
+    },
+    {
+      "id": 2,
+      "identifier": "external \"vendor_library\"",
+      "name": "external \"vendor_library\"",
+      "index": 2,
+      "index2": 0,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "delegated 17 from dll-reference vendor_library",
+      "issuerId": 3,
+      "issuerName": "delegated ./node_modules/react-dom/index.js from dll-reference vendor_library",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx",
+          "name": "./view/index.tsx"
+        },
+        {
+          "id": 3,
+          "identifier": "delegated 17 from dll-reference vendor_library",
+          "name": "delegated ./node_modules/react-dom/index.js from dll-reference vendor_library"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "delegated 0 from dll-reference vendor_library",
+          "module": "delegated ./node_modules/react/index.js from dll-reference vendor_library",
+          "moduleName": "delegated ./node_modules/react/index.js from dll-reference vendor_library",
+          "type": "delegated source",
+          "userRequest": "dll-reference vendor_library"
+        },
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "delegated 17 from dll-reference vendor_library",
+          "module": "delegated ./node_modules/react-dom/index.js from dll-reference vendor_library",
+          "moduleName": "delegated ./node_modules/react-dom/index.js from dll-reference vendor_library",
+          "type": "delegated source",
+          "userRequest": "dll-reference vendor_library"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "id": 3,
+      "identifier": "delegated 17 from dll-reference vendor_library",
+      "name": "delegated ./node_modules/react-dom/index.js from dll-reference vendor_library",
+      "index": 3,
+      "index2": 2,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx",
+      "issuerId": null,
+      "issuerName": "./view/index.tsx",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx",
+          "name": "./view/index.tsx"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx 46945d29009b3bcce7ed0e751c51175b",
+          "module": "./view/index.tsx + 2 modules",
+          "moduleName": "./view/index.tsx + 2 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react-dom",
+          "loc": "2:0-33"
+        },
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx 46945d29009b3bcce7ed0e751c51175b",
+          "module": "./view/index.tsx + 2 modules",
+          "moduleName": "./view/index.tsx + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react-dom",
+          "loc": "4:0-8"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "id": 4,
+      "identifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx 46945d29009b3bcce7ed0e751c51175b",
+      "name": "./view/index.tsx + 2 modules",
+      "index": 0,
+      "index2": 7,
+      "size": 1616,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "F:\\construction-react\\view\\index",
+          "loc": "main"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+      ],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Cannot concat with ./view/app.less (<- Module is not an ECMAScript module)",
+        "ModuleConcatenation bailout: Cannot concat with delegated ./node_modules/react/index.js from dll-reference vendor_library (<- Module is not an ECMAScript module)",
+        "ModuleConcatenation bailout: Cannot concat with delegated ./node_modules/react-dom/index.js from dll-reference vendor_library (<- Module is not an ECMAScript module)"
+      ],
+      "depth": 0,
+      "modules": [
+        {
+          "id": null,
+          "identifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx",
+          "name": "./view/index.tsx",
+          "index": 0,
+          "index2": 7,
+          "size": 181,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "F:\\construction-react\\view\\index",
+              "loc": "main"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is an entry point"
+          ],
+          "depth": 0,
+          "source": "import React from 'react';\nimport ReactDOM from 'react-dom';\nimport App from './App';\nReactDOM.render( /*#__PURE__*/React.createElement(App, null), document.getElementById('root'));"
+        },
+        {
+          "id": null,
+          "identifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\App.tsx",
+          "name": "./view/App.tsx",
+          "index": 4,
+          "index2": 6,
+          "size": 509,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+          ],
+          "issuer": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx",
+          "issuerId": null,
+          "issuerName": "./view/index.tsx",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx",
+              "name": "./view/index.tsx"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx",
+              "module": "./view/index.tsx",
+              "moduleName": "./view/index.tsx",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./App",
+              "loc": "3:0-24"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx",
+              "module": "./view/index.tsx",
+              "moduleName": "./view/index.tsx",
+              "type": "harmony import specifier",
+              "userRequest": "./App",
+              "loc": "4:50-53"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 1,
+          "source": "import React from 'react';\nimport styles from './app.less';\nimport img from '../static/image_female.png';\n\nvar App = function App() {\n  return /*#__PURE__*/React.createElement(\"div\", {\n    className: styles.text\n  }, \" \\u4ECE\\u96F6\\u5F00\\u59CB\\u624B\\u5199webpack\\u642D\\u5EFAreact\\u9879\\u76EE \\u70ED\\u66F4\\u65B0gitgnore \", /*#__PURE__*/React.createElement(\"span\", {\n    className: styles.text1\n  }, \"red\"), \" \", /*#__PURE__*/React.createElement(\"img\", {\n    src: img,\n    alt: \"\"\n  }));\n};\n\nexport default App;"
+        },
+        {
+          "id": null,
+          "identifier": "F:\\construction-react\\node_modules\\url-loader\\dist\\cjs.js??ref--9!F:\\construction-react\\static\\image_female.png",
+          "name": "./static/image_female.png",
+          "index": 7,
+          "index2": 5,
+          "size": 911,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+          ],
+          "issuer": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\App.tsx",
+          "issuerId": null,
+          "issuerName": "./view/App.tsx",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx",
+              "name": "./view/index.tsx"
+            },
+            {
+              "id": null,
+              "identifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\App.tsx",
+              "name": "./view/App.tsx"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\App.tsx",
+              "module": "./view/App.tsx",
+              "moduleName": "./view/App.tsx",
+              "type": "harmony side effect evaluation",
+              "userRequest": "../static/image_female.png",
+              "loc": "3:0-45"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\App.tsx",
+              "module": "./view/App.tsx",
+              "moduleName": "./view/App.tsx",
+              "type": "harmony import specifier",
+              "userRequest": "../static/image_female.png",
+              "loc": "11:9-12"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 2,
+          "source": "export default \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAkZJREFUSA21lc9rE1EQx2dWE1BzCsYfSLx58haxitJDBPHeSkCE2ODBeCnV9lJBvChe2oYWYunRggfxInqq6D8gFPHuQY+a6EGjWW12x++sbdGX9za7rX0wu+/NfGc+b/Ylu0wJhiwtZajTuQnpFVgR9g32BvaYisVHXKkEmMcOjo0iCMheQJ6SyHmrlvk1FQrnuFr9bo2vO724YBTrdO47ISoQGaJW68GgOrEdSaNxmILgPYpkBxT6hfgRnppqu3TxHQVBJQFEa+tGLuvENeJBzKOuRIt/xOLbdDlBsry8D6ozm8rBk9PrOValE4QDHsJB77Jm2Z1ZareH7SEiN0jkpCvJ6Rcpu2JuEPNxV5LTvyUQkXN3ThBzSRYWCra4tSOZmbmA89FXTbqhZ7q2VrclWUHEfNsmTuiblvn5o6a2DyRzc8Po5qwpTLwW2UO93iVT3wcC5Cs6+mEKU6z1dfTC1PeBeHLyLWBdU5hincVGP5j6PlAkYA5NYaq152VMvR0kcmPLjw/fJ56Y+GiCnJ8JWVw8QN3uKQrDg4Bex+MsmcnRmvkL7vdg+hTeUT7/kms1P4r9dbF3pIJ6vQVAF3bRCVGdSB7Xa9B9olxuxQZR2T8diYhHjYb+tEdRYASW9k/7GblPAH1OmcwrHh//qRAdEUiazRz5/i0UrsF3KIps98KsX9smlUp3uVzueVEXvr8CyPR/g+gmRfbD7tDq6jNlsMzOVuF4qLEdG5435gFydccAG4XDcGw35ic21onvzJJY+0d47DfwGLWbDHzMMQAAAABJRU5ErkJggg==\""
+        }
+      ],
+      "filteredModules": 0
+    },
+    {
+      "id": "",
+      "identifier": "css F:\\construction-react\\node_modules\\css-loader\\dist\\cjs.js??ref--7-1!F:\\construction-react\\node_modules\\less-loader\\dist\\cjs.js!F:\\construction-react\\node_modules\\postcss-loader\\dist\\cjs.js!F:\\construction-react\\view\\app.less 0",
+      "name": "css ./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./view/app.less",
+      "index": 6,
+      "index2": 3,
+      "size": 134,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "F:\\construction-react\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!F:\\construction-react\\node_modules\\css-loader\\dist\\cjs.js??ref--7-1!F:\\construction-react\\node_modules\\less-loader\\dist\\cjs.js!F:\\construction-react\\node_modules\\postcss-loader\\dist\\cjs.js!F:\\construction-react\\view\\app.less",
+      "issuerId": 1,
+      "issuerName": "./view/app.less",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\index.tsx",
+          "name": "./view/index.tsx"
+        },
+        {
+          "id": null,
+          "identifier": "F:\\construction-react\\node_modules\\babel-loader\\lib\\index.js?cacheDirectory=true!F:\\construction-react\\view\\App.tsx",
+          "name": "./view/App.tsx"
+        },
+        {
+          "id": 1,
+          "identifier": "F:\\construction-react\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!F:\\construction-react\\node_modules\\css-loader\\dist\\cjs.js??ref--7-1!F:\\construction-react\\node_modules\\less-loader\\dist\\cjs.js!F:\\construction-react\\node_modules\\postcss-loader\\dist\\cjs.js!F:\\construction-react\\view\\app.less",
+          "name": "./view/app.less"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "F:\\construction-react\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!F:\\construction-react\\node_modules\\css-loader\\dist\\cjs.js??ref--7-1!F:\\construction-react\\node_modules\\less-loader\\dist\\cjs.js!F:\\construction-react\\node_modules\\postcss-loader\\dist\\cjs.js!F:\\construction-react\\view\\app.less",
+          "module": "./view/app.less",
+          "moduleName": "./view/app.less"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [
+      ],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": [
+    {
+      "errors": [
+      ],
+      "warnings": [
+      ],
+      "publicPath": "",
+      "outputPath": "F:\\construction-react\\resource\\view",
+      "assetsByChunkName": {
+        "HtmlWebpackPlugin_0": "__child-HtmlWebpackPlugin_0"
+      },
+      "assets": [
+        {
+          "name": "__child-HtmlWebpackPlugin_0",
+          "size": 12714,
+          "chunks": [
+            0
+          ],
+          "chunkNames": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "info": {
+          },
+          "emitted": false
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {
+          },
+          "childAssets": {
+          }
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {
+          },
+          "childAssets": {
+          }
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 3281,
+          "names": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "files": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "hash": "c26da3dd368db6cad8c3",
+          "siblings": [
+          ],
+          "parents": [
+          ],
+          "children": [
+          ],
+          "childrenByOrder": {
+          },
+          "modules": [
+            {
+              "id": 0,
+              "identifier": "F:\\construction-react\\node_modules\\html-webpack-plugin\\lib\\loader.js!F:\\construction-react\\public\\index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+              "index": 0,
+              "index2": 0,
+              "size": 3281,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [
+              ],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "F:\\construction-react\\node_modules\\html-webpack-plugin\\lib\\loader.js!F:\\construction-react\\public\\index.html",
+                  "loc": "HtmlWebpackPlugin_0"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 0,
+              "source": "var _ = __non_webpack_require__(\"F:\\\\construction-react\\\\node_modules\\\\lodash\\\\lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!--public/index.html-->\\r\\n<!DOCTYPE html>\\r\\n<html lang=\"zh-CN\">\\r\\n\\r\\n<head>\\r\\n  <meta charset=\"utf-8\" />\\r\\n  <meta charset=\"utf-8\" />\\r\\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\\r\\n  <meta name=\"renderer\" content=\"webkit\" />\\r\\n  <!-- report -->\\r\\n  <meta itemprop=\"name\" content=\"react\" />\\r\\n  <meta name=\"viewport\" content=\"user-scalable=no\" />\\r\\n  <!-- <link rel=\"shortcut icon\" href=\"%PUBLIC_URL%/favicon.ico\" /> -->\\r\\n  <!-- <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no\" /> -->\\r\\n  <title>constuction-react</title>\\r\\n  <script>\\r\\n    !(function (e) {\\r\\n      function t(a) {\\r\\n        if (i[a]) return i[a].exports;\\r\\n        var n = (i[a] = { exports: {}, id: a, loaded: !1 });\\r\\n        return (\\r\\n          e[a].call(n.exports, n, n.exports, t),\\r\\n          (n.loaded = !0),\\r\\n          n.exports\\r\\n        );\\r\\n      }\\r\\n      var i = {};\\r\\n      return (t.m = e), (t.c = i), (t.p = \"\"), t(0);\\r\\n    })([\\r\\n      function (e, t) {\\r\\n        \"use strict\";\\r\\n        Object.defineProperty(t, \"__esModule\", { value: !0 });\\r\\n        var i = window;\\r\\n        (t[\"default\"] = i.flex = function (e, t) {\\r\\n          var a = e || 100,\\r\\n            n = t || 1,\\r\\n            r = i.document,\\r\\n            o = navigator.userAgent,\\r\\n            d = o.match(/Android[\\\\S\\\\s]+AppleWebkit\\\\/(\\\\d{3})/i),\\r\\n            l = o.match(/U3\\\\/((\\\\d+|\\\\.){5,})/i),\\r\\n            c =\\r\\n              l &&\\r\\n              parseInt(l[1].split(\".\").join(\"\"), 10) >= 80,\\r\\n            p = navigator.appVersion.match(\\r\\n              /(iphone|ipad|ipod)/gi\\r\\n            ),\\r\\n            s = i.devicePixelRatio || 1;\\r\\n          p || (d && d[1] > 534) || c || (s = 1);\\r\\n          var u = 1 / s,\\r\\n            m = r.querySelector(\\'meta[name=\"viewport\"]\\');\\r\\n          m ||\\r\\n            ((m = r.createElement(\"meta\")),\\r\\n              m.setAttribute(\"name\", \"viewport\"),\\r\\n              r.head.appendChild(m)),\\r\\n            m.setAttribute(\\r\\n              \"content\",\\r\\n              \"width=device-width,user-scalable=no,initial-scale=\" +\\r\\n              u +\\r\\n              \",maximum-scale=\" +\\r\\n              u +\\r\\n              \",minimum-scale=\" +\\r\\n              u\\r\\n            ),\\r\\n            (r.documentElement.style.fontSize =\\r\\n              (a / 2) * s * n + \"px\");\\r\\n        }),\\r\\n          (e.exports = t[\"default\"]);\\r\\n      },\\r\\n    ]);\\r\\n    flex(100, 1);\\r\\n  </script>\\r\\n  <script src=\"https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js\"></script>\\r\\n  <script>\\r\\n    if (\"addEventListener\" in document) {\\r\\n      document.addEventListener(\\r\\n        \"DOMContentLoaded\",\\r\\n        function () {\\r\\n          FastClick.attach(document.body);\\r\\n        },\\r\\n        false\\r\\n      );\\r\\n    }\\r\\n  </script>\\r\\n  <script type=\"text/javascript\" src=\"../resource/vendor.dll.js\"></script>\\r\\n</head>\\r\\n\\r\\n<body>\\r\\n  <div id=\"root\"></div>\\r\\n</body>\\r\\n\\r\\n</html>\\r\\n';\nreturn __p\n})();}}"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0",
+              "request": "F:\\construction-react\\node_modules\\html-webpack-plugin\\lib\\loader.js!F:\\construction-react\\public\\index.html",
+              "reasons": [
+              ]
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "F:\\construction-react\\node_modules\\html-webpack-plugin\\lib\\loader.js!F:\\construction-react\\public\\index.html",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+          "index": 0,
+          "index2": 0,
+          "size": 3281,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "F:\\construction-react\\node_modules\\html-webpack-plugin\\lib\\loader.js!F:\\construction-react\\public\\index.html",
+              "loc": "HtmlWebpackPlugin_0"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "source": "var _ = __non_webpack_require__(\"F:\\\\construction-react\\\\node_modules\\\\lodash\\\\lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!--public/index.html-->\\r\\n<!DOCTYPE html>\\r\\n<html lang=\"zh-CN\">\\r\\n\\r\\n<head>\\r\\n  <meta charset=\"utf-8\" />\\r\\n  <meta charset=\"utf-8\" />\\r\\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\\r\\n  <meta name=\"renderer\" content=\"webkit\" />\\r\\n  <!-- report -->\\r\\n  <meta itemprop=\"name\" content=\"react\" />\\r\\n  <meta name=\"viewport\" content=\"user-scalable=no\" />\\r\\n  <!-- <link rel=\"shortcut icon\" href=\"%PUBLIC_URL%/favicon.ico\" /> -->\\r\\n  <!-- <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no\" /> -->\\r\\n  <title>constuction-react</title>\\r\\n  <script>\\r\\n    !(function (e) {\\r\\n      function t(a) {\\r\\n        if (i[a]) return i[a].exports;\\r\\n        var n = (i[a] = { exports: {}, id: a, loaded: !1 });\\r\\n        return (\\r\\n          e[a].call(n.exports, n, n.exports, t),\\r\\n          (n.loaded = !0),\\r\\n          n.exports\\r\\n        );\\r\\n      }\\r\\n      var i = {};\\r\\n      return (t.m = e), (t.c = i), (t.p = \"\"), t(0);\\r\\n    })([\\r\\n      function (e, t) {\\r\\n        \"use strict\";\\r\\n        Object.defineProperty(t, \"__esModule\", { value: !0 });\\r\\n        var i = window;\\r\\n        (t[\"default\"] = i.flex = function (e, t) {\\r\\n          var a = e || 100,\\r\\n            n = t || 1,\\r\\n            r = i.document,\\r\\n            o = navigator.userAgent,\\r\\n            d = o.match(/Android[\\\\S\\\\s]+AppleWebkit\\\\/(\\\\d{3})/i),\\r\\n            l = o.match(/U3\\\\/((\\\\d+|\\\\.){5,})/i),\\r\\n            c =\\r\\n              l &&\\r\\n              parseInt(l[1].split(\".\").join(\"\"), 10) >= 80,\\r\\n            p = navigator.appVersion.match(\\r\\n              /(iphone|ipad|ipod)/gi\\r\\n            ),\\r\\n            s = i.devicePixelRatio || 1;\\r\\n          p || (d && d[1] > 534) || c || (s = 1);\\r\\n          var u = 1 / s,\\r\\n            m = r.querySelector(\\'meta[name=\"viewport\"]\\');\\r\\n          m ||\\r\\n            ((m = r.createElement(\"meta\")),\\r\\n              m.setAttribute(\"name\", \"viewport\"),\\r\\n              r.head.appendChild(m)),\\r\\n            m.setAttribute(\\r\\n              \"content\",\\r\\n              \"width=device-width,user-scalable=no,initial-scale=\" +\\r\\n              u +\\r\\n              \",maximum-scale=\" +\\r\\n              u +\\r\\n              \",minimum-scale=\" +\\r\\n              u\\r\\n            ),\\r\\n            (r.documentElement.style.fontSize =\\r\\n              (a / 2) * s * n + \"px\");\\r\\n        }),\\r\\n          (e.exports = t[\"default\"]);\\r\\n      },\\r\\n    ]);\\r\\n    flex(100, 1);\\r\\n  </script>\\r\\n  <script src=\"https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js\"></script>\\r\\n  <script>\\r\\n    if (\"addEventListener\" in document) {\\r\\n      document.addEventListener(\\r\\n        \"DOMContentLoaded\",\\r\\n        function () {\\r\\n          FastClick.attach(document.body);\\r\\n        },\\r\\n        false\\r\\n      );\\r\\n    }\\r\\n  </script>\\r\\n  <script type=\"text/javascript\" src=\"../resource/vendor.dll.js\"></script>\\r\\n</head>\\r\\n\\r\\n<body>\\r\\n  <div id=\"root\"></div>\\r\\n</body>\\r\\n\\r\\n</html>\\r\\n';\nreturn __p\n})();}}"
+        }
+      ],
+      "filteredModules": 0,
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [
+          ],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [
+      ],
+      "name": "HtmlWebpackCompiler"
+    },
+    {
+      "errors": [
+      ],
+      "warnings": [
+      ],
+      "publicPath": "",
+      "outputPath": "F:\\construction-react\\resource\\view",
+      "assetsByChunkName": {
+      },
+      "assets": [
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {
+          },
+          "childAssets": {
+          }
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {
+          },
+          "childAssets": {
+          }
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 3337,
+          "names": [
+            "mini-css-extract-plugin"
+          ],
+          "files": [
+            "*"
+          ],
+          "hash": "fce60aec7b6b555a873e",
+          "siblings": [
+          ],
+          "parents": [
+          ],
+          "children": [
+          ],
+          "childrenByOrder": {
+          },
+          "modules": [
+            {
+              "id": 0,
+              "identifier": "F:\\construction-react\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "name": "./node_modules/css-loader/dist/runtime/api.js",
+              "index": 1,
+              "index2": 0,
+              "size": 2517,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "F:\\construction-react\\node_modules\\css-loader\\dist\\cjs.js??ref--7-1!F:\\construction-react\\node_modules\\less-loader\\dist\\cjs.js!F:\\construction-react\\node_modules\\postcss-loader\\dist\\cjs.js!F:\\construction-react\\view\\app.less",
+              "issuerId": 1,
+              "issuerName": "./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./view/app.less",
+              "issuerPath": [
+                {
+                  "id": 1,
+                  "identifier": "F:\\construction-react\\node_modules\\css-loader\\dist\\cjs.js??ref--7-1!F:\\construction-react\\node_modules\\less-loader\\dist\\cjs.js!F:\\construction-react\\node_modules\\postcss-loader\\dist\\cjs.js!F:\\construction-react\\view\\app.less",
+                  "name": "./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./view/app.less"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [
+              ],
+              "reasons": [
+                {
+                  "moduleId": 1,
+                  "moduleIdentifier": "F:\\construction-react\\node_modules\\css-loader\\dist\\cjs.js??ref--7-1!F:\\construction-react\\node_modules\\less-loader\\dist\\cjs.js!F:\\construction-react\\node_modules\\postcss-loader\\dist\\cjs.js!F:\\construction-react\\view\\app.less",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./view/app.less",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./view/app.less",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "2:0-89"
+                },
+                {
+                  "moduleId": 1,
+                  "moduleIdentifier": "F:\\construction-react\\node_modules\\css-loader\\dist\\cjs.js??ref--7-1!F:\\construction-react\\node_modules\\less-loader\\dist\\cjs.js!F:\\construction-react\\node_modules\\postcss-loader\\dist\\cjs.js!F:\\construction-react\\view\\app.less",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./view/app.less",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./view/app.less",
+                  "type": "harmony import specifier",
+                  "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "3:30-57"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1,
+              "source": "\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \" {\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join('');\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery, dedupe) {\n    if (typeof modules === 'string') {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var i = 0; i < this.length; i++) {\n        // eslint-disable-next-line prefer-destructuring\n        var id = this[i][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = [].concat(modules[_i]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        // eslint-disable-next-line no-continue\n        continue;\n      }\n\n      if (mediaQuery) {\n        if (!item[2]) {\n          item[2] = mediaQuery;\n        } else {\n          item[2] = \"\".concat(mediaQuery, \" and \").concat(item[2]);\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring\n\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return \"/*# sourceURL=\".concat(cssMapping.sourceRoot || '').concat(source, \" */\");\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = \"sourceMappingURL=data:application/json;charset=utf-8;base64,\".concat(base64);\n  return \"/*# \".concat(data, \" */\");\n}"
+            },
+            {
+              "id": 1,
+              "identifier": "F:\\construction-react\\node_modules\\css-loader\\dist\\cjs.js??ref--7-1!F:\\construction-react\\node_modules\\less-loader\\dist\\cjs.js!F:\\construction-react\\node_modules\\postcss-loader\\dist\\cjs.js!F:\\construction-react\\view\\app.less",
+              "name": "./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./view/app.less",
+              "index": 0,
+              "index2": 1,
+              "size": 820,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [
+              ],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "!!F:\\construction-react\\node_modules\\css-loader\\dist\\cjs.js??ref--7-1!F:\\construction-react\\node_modules\\less-loader\\dist\\cjs.js!F:\\construction-react\\node_modules\\postcss-loader\\dist\\cjs.js!F:\\construction-react\\view\\app.less",
+                  "loc": "mini-css-extract-plugin"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module uses module.id"
+              ],
+              "depth": 0,
+              "source": "// Imports\nimport ___CSS_LOADER_API_IMPORT___ from \"../node_modules/css-loader/dist/runtime/api.js\";\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"._2d2dji {\\n  color: brown;\\n}\\n._2d2dji ._2YdL-w {\\n  font-size: 30px;\\n  -webkit-transform: rotate(45deg);\\n  transform: rotate(45deg);\\n}\\n\", \"\",{\"version\":3,\"sources\":[\"webpack://view/app.less\"],\"names\":[],\"mappings\":\"AAAA;EACC,YAAA;AACD;AAFA;EAGE,eAAA;EACA,gCAAA;EACQ,wBAAA;AAEV\",\"sourcesContent\":[\".text {\\n\\tcolor: brown;\\n\\t.text1 {\\n\\t\\tfont-size: 30px;\\n\\t\\t-webkit-transform: rotate(45deg);\\n\\t\\t        transform: rotate(45deg);\\n\\t}\\n}\\n\"],\"sourceRoot\":\"\"}]);\n// Exports\n___CSS_LOADER_EXPORT___.locals = {\n\t\"text\": \"_2d2dji\",\n\t\"text1\": \"_2YdL-w\"\n};\nexport default ___CSS_LOADER_EXPORT___;\n"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "mini-css-extract-plugin",
+              "request": "!!F:\\construction-react\\node_modules\\css-loader\\dist\\cjs.js??ref--7-1!F:\\construction-react\\node_modules\\less-loader\\dist\\cjs.js!F:\\construction-react\\node_modules\\postcss-loader\\dist\\cjs.js!F:\\construction-react\\view\\app.less",
+              "reasons": [
+              ]
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "F:\\construction-react\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "name": "./node_modules/css-loader/dist/runtime/api.js",
+          "index": 1,
+          "index2": 0,
+          "size": 2517,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "F:\\construction-react\\node_modules\\css-loader\\dist\\cjs.js??ref--7-1!F:\\construction-react\\node_modules\\less-loader\\dist\\cjs.js!F:\\construction-react\\node_modules\\postcss-loader\\dist\\cjs.js!F:\\construction-react\\view\\app.less",
+          "issuerId": 1,
+          "issuerName": "./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./view/app.less",
+          "issuerPath": [
+            {
+              "id": 1,
+              "identifier": "F:\\construction-react\\node_modules\\css-loader\\dist\\cjs.js??ref--7-1!F:\\construction-react\\node_modules\\less-loader\\dist\\cjs.js!F:\\construction-react\\node_modules\\postcss-loader\\dist\\cjs.js!F:\\construction-react\\view\\app.less",
+              "name": "./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./view/app.less"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "F:\\construction-react\\node_modules\\css-loader\\dist\\cjs.js??ref--7-1!F:\\construction-react\\node_modules\\less-loader\\dist\\cjs.js!F:\\construction-react\\node_modules\\postcss-loader\\dist\\cjs.js!F:\\construction-react\\view\\app.less",
+              "module": "./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./view/app.less",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./view/app.less",
+              "type": "harmony side effect evaluation",
+              "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "2:0-89"
+            },
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "F:\\construction-react\\node_modules\\css-loader\\dist\\cjs.js??ref--7-1!F:\\construction-react\\node_modules\\less-loader\\dist\\cjs.js!F:\\construction-react\\node_modules\\postcss-loader\\dist\\cjs.js!F:\\construction-react\\view\\app.less",
+              "module": "./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./view/app.less",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./view/app.less",
+              "type": "harmony import specifier",
+              "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "3:30-57"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1,
+          "source": "\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \" {\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join('');\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery, dedupe) {\n    if (typeof modules === 'string') {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var i = 0; i < this.length; i++) {\n        // eslint-disable-next-line prefer-destructuring\n        var id = this[i][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = [].concat(modules[_i]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        // eslint-disable-next-line no-continue\n        continue;\n      }\n\n      if (mediaQuery) {\n        if (!item[2]) {\n          item[2] = mediaQuery;\n        } else {\n          item[2] = \"\".concat(mediaQuery, \" and \").concat(item[2]);\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring\n\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return \"/*# sourceURL=\".concat(cssMapping.sourceRoot || '').concat(source, \" */\");\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = \"sourceMappingURL=data:application/json;charset=utf-8;base64,\".concat(base64);\n  return \"/*# \".concat(data, \" */\");\n}"
+        },
+        {
+          "id": 1,
+          "identifier": "F:\\construction-react\\node_modules\\css-loader\\dist\\cjs.js??ref--7-1!F:\\construction-react\\node_modules\\less-loader\\dist\\cjs.js!F:\\construction-react\\node_modules\\postcss-loader\\dist\\cjs.js!F:\\construction-react\\view\\app.less",
+          "name": "./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./view/app.less",
+          "index": 0,
+          "index2": 1,
+          "size": 820,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "!!F:\\construction-react\\node_modules\\css-loader\\dist\\cjs.js??ref--7-1!F:\\construction-react\\node_modules\\less-loader\\dist\\cjs.js!F:\\construction-react\\node_modules\\postcss-loader\\dist\\cjs.js!F:\\construction-react\\view\\app.less",
+              "loc": "mini-css-extract-plugin"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module uses module.id"
+          ],
+          "depth": 0,
+          "source": "// Imports\nimport ___CSS_LOADER_API_IMPORT___ from \"../node_modules/css-loader/dist/runtime/api.js\";\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"._2d2dji {\\n  color: brown;\\n}\\n._2d2dji ._2YdL-w {\\n  font-size: 30px;\\n  -webkit-transform: rotate(45deg);\\n  transform: rotate(45deg);\\n}\\n\", \"\",{\"version\":3,\"sources\":[\"webpack://view/app.less\"],\"names\":[],\"mappings\":\"AAAA;EACC,YAAA;AACD;AAFA;EAGE,eAAA;EACA,gCAAA;EACQ,wBAAA;AAEV\",\"sourcesContent\":[\".text {\\n\\tcolor: brown;\\n\\t.text1 {\\n\\t\\tfont-size: 30px;\\n\\t\\t-webkit-transform: rotate(45deg);\\n\\t\\t        transform: rotate(45deg);\\n\\t}\\n}\\n\"],\"sourceRoot\":\"\"}]);\n// Exports\n___CSS_LOADER_EXPORT___.locals = {\n\t\"text\": \"_2d2dji\",\n\t\"text1\": \"_2YdL-w\"\n};\nexport default ___CSS_LOADER_EXPORT___;\n"
+        }
+      ],
+      "filteredModules": 0,
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [
+          ],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [
+      ],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--7-1!node_modules/less-loader/dist/cjs.js!node_modules/postcss-loader/dist/cjs.js!view/app.less"
+    }
+  ]
+}

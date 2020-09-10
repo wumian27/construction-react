@@ -7,7 +7,7 @@ const loader = require("sass-loader");
 const webpack = require("webpack");
 
 module.exports = {
-    entry: path.resolve(__dirname, "../view/index"),
+    entry: path.resolve(__dirname, "../src/view/index"),
     output: {
         filename: "[name].[hash].js",
         path: path.resolve(__dirname, "../resource/view"),
@@ -28,11 +28,12 @@ module.exports = {
                 test: /\.(js|ts)x?$/,
                 exclude: /node_modules/,
                 use: {
-                    loader: "babel-loader",
+                    loader: "babel-loader?cacheDirectory=true",
                 },
             },
             {
                 test: /\.css$/,
+                // exclude: /node_modules/,
                 use: [
                     MiniCssExtractPlugin.loader,
                     // {
@@ -41,7 +42,7 @@ module.exports = {
                     {
                         loader: "css-loader",
                         options: {
-                            modules: true, // 启动css module
+                            modules: false, // 启动css module
                         },
                     },
                     {
@@ -123,12 +124,43 @@ module.exports = {
     },
     // 优化
     optimization: {
+        splitChunks: {
+            chunks: 'async',
+            minSize: 30000,
+            minChunks: 1,
+            maxAsyncRequests: 5,
+            maxInitialRequests: 3,
+            automaticNameDelimiter: '~',
+            name: true,
+            cacheGroups: {
+                vendors: {
+                    test: /[\\/]node_modules[\\/]/,
+                    name: 'vendor',
+                    filename: '[name].bundle.js',
+                    chunks: 'initial',
+                    minChunks: 2,
+                    priority: -10,
+                },
+                default: {
+                    minChunks: 2,
+                    priority: -20,
+                },
+                common: { // 抽离自己的公共模块
+                    chunks: 'all',
+                    name: 'common',
+                    minSize: 0, // 只要大小超出设置的这个数值，就生成一个新包
+                    minChunks: 2,
+                    priority: 9
+                }
+            }
+        },
+        // 压缩css
         minimizer: [new OptimizeCssAssetsPlugin()],
     },
     plugins: [
         new HtmlWebpackPlugin({
             filename: "index.html",
-            template: path.resolve(__dirname, "../public/index.html"),
+            template: path.resolve(__dirname, "../src/view/index.html"),
             hash: true,
         }),
         new webpack.DllReferencePlugin({

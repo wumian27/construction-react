@@ -1,4 +1,5 @@
-const baseConfig = require('../config/webpack.config.base');
+const baseConfig = require('../webpack/webpack.config.base');
+const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 //  plugins 构建进度
@@ -26,16 +27,17 @@ const config  = merge(baseConfig, {
     },
     plugins: [
         new BundleAnalyzerPlugin({
-            analyzerMode: 'server',
+            // analyzerMode: 'server',
             analyzerHost: '127.0.0.1',
             analyzerPort: 7778,
-            reportFilename: 'report.html',
+            reportFilename: path.resolve(__dirname,'../resource/analyze/report.html'),
             defaultSizes: 'parsed',
             openAnalyzer: true,
-            generateStatsFile: false,
-            statsFilename: 'stats.json',
+            generateStatsFile: true,
+            statsFilename: path.resolve(__dirname, '../resource/analyze/stats.json'),
             statsOptions: null,
-            logLevel: 'info'
+            logLevel: 'info',
+            analyzerMode: 'static',
         }),
         // 删除空的dist，再写入
         new CleanWebpackPlugin(),

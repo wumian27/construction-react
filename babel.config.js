@@ -1,13 +1,27 @@
 module.exports = {
-    presets: [
+    "presets": [
+        "@babel/preset-react",
         [
-            '@babel/env',
-        {
-            useBuiltIns: 'usage',
-            corejs: 3,
-        }
+            "@babel/preset-env",
+            {
+                "targets": {
+                    "browsers": [
+                        "last 5 versions",
+                        "ie >= 9"
+                    ]
+                }
+            }
+        ],
+        '@babel/preset-typescript'  // 配置支持typescript 跟@babel/preset-typescript
     ],
-    '@babel/preset-react',
-    '@babel/preset-typescript'  // 配置支持typescript 跟@babel/preset-typescript
+    plugins: [
+        [
+            "import",
+            {
+                "libraryName": "antd",
+                "librayDirectory": "es",
+                "style": "css"
+            }
+        ], 
     ]
 }
