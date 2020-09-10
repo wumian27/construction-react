@@ -87,12 +87,13 @@ module.exports = {
             {
                 test: /\.less$/, // 处理less文件
                 use: [
-                    {
-                        loader: "cache-loader",
-                        options: {
-                            cacheDirectory: path.resolve('.cache-loader')
-                        }
-                    },
+                    // {
+                    //     // loader: "cache-loader",
+                    //     // options: {
+                    //     //     cacheDirectory: path.resolve('.cache-loader'),
+                    //     //     readOnly: true,
+                    //     // }
+                    // },
                     MiniCssExtractPlugin.loader,
                     {
                         loader: "css-loader",
