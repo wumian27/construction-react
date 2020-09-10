@@ -7,10 +7,12 @@ const config  = merge(baseConfig, {
     mode:'development',
     plugins:[
         new webpack.HotModuleReplacementPlugin(),
+        new webpack.NoEmitOnErrorsPlugin(),
         new webpack.DllReferencePlugin({
             manifest: require('../resource/vendor-manifest.json')
         }),
     ],
+    devtool:'#eval',
     devServer:{
         port: 3000,
         open: true,

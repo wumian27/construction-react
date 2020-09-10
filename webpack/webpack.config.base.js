@@ -174,8 +174,8 @@ module.exports = {
                 }
             }
         },
-        // 压缩css
-        minimizer: [new OptimizeCssAssetsPlugin()],
+
+        // minimizer: [new OptimizeCssAssetsPlugin()],
     },
     plugins: [
         new HtmlWebpackPlugin({
@@ -188,8 +188,31 @@ module.exports = {
         new MiniCssExtractPlugin({
             filename: "css/[name].[hash].css",
         }),
+        // 压缩css
+        new OptimizeCssAssetsPlugin({
+            cssProcessorOptions: {
+                discardComents: {
+                    removeAll: true,
+                },
+                autoprefixer: false,
+                zindex: false,
+            },
+        }),
 
         // 缓存
         new HardSourceWebpackPlugin(),
+
+        // 忽略moment
+        new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/)
     ],
+
+    // 只是表面错误，看有没有其他的
+    performance:{
+        // false | "error" | "warning" // 不显示性能提示 | 以错误形式提示 | 以警告...
+        hints: 'warning',
+        // / 开发环境设置较大防止警告
+        // 根据入口起点的最大体积，控制webpack何时生成性能提示,整数类型,以字节为单位
+        maxEntrypointSize: 5000000,
+        maxAssetSize: 3000000,
+    }
 };

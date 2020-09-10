@@ -13,3 +13,4 @@ babel配置plugins [
 剩余缓存没做.cache-loader
 产生.cache-loader 使用 cache-loader 
 // 文章https://www.cnblogs.com/zhonglinfeng666/p/13388809.html
+ options: {cacheDirectory: path.resolve('.cache-loader')}
