@@ -13,6 +13,7 @@ const webpack = require('webpack')
 const { merge } = require("webpack-merge"); // 版本升级变成 {}
 const config = merge(baseConfig, {
     mode: "production",
+    devtool: 'cheap-module-source-map',
     optimization: {
         minimizer: [
             new TerserPlugin({

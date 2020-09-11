@@ -6,11 +6,10 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const webpack = require("webpack");
 const HardSourceWebpackPlugin = require('hard-source-webpack-plugin');
-const { log } = require("console");
 
 let buildRunning = false;
 let startTime = 0;
-console.log(process.argv)
+
 module.exports = {
     entry: path.resolve(__dirname, "../src/view/index"),
     output: {

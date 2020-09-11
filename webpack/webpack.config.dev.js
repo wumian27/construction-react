@@ -28,9 +28,10 @@ if (localCMD) {
         }
     }
 }
-console.log(proxy);
+
 const config = merge(baseConfig, {
     mode: 'development',
+    devtool: 'cheap-module-eval-source-map',
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
         new webpack.NoEmitOnErrorsPlugin(),
@@ -38,7 +39,6 @@ const config = merge(baseConfig, {
             manifest: require('../resource/vendor-manifest.json')
         }),
     ],
-    devtool: '#eval',
     devServer: {
         port: 3000,
         open: true,
