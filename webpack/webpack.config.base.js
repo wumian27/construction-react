@@ -6,9 +6,11 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const webpack = require("webpack");
 const HardSourceWebpackPlugin = require('hard-source-webpack-plugin');
+const { log } = require("console");
 
 let buildRunning = false;
 let startTime = 0;
+console.log(process.argv)
 module.exports = {
     entry: path.resolve(__dirname, "../src/view/index"),
     output: {
@@ -189,6 +191,14 @@ module.exports = {
             hash: true,
         }),
 
+        // 定义全局变量
+        new webpack.DefinePlugin({
+            ...process.env.stringified,
+            'process.env': {
+                NODE_ENV: JSON.stringify(process.env.NODE_ENV || 'development'),
+                DEV_LOCAL: process.env.DEV_LOCAL,
+            }
+        }),
         // 抽离 css
         new MiniCssExtractPlugin({
             filename: "css/[name].[hash].css",
