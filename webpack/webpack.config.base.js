@@ -11,7 +11,7 @@ let buildRunning = false;
 let startTime = 0;
 
 module.exports = {
-    entry: path.resolve(__dirname, "../src/view/index"),
+    entry: path.resolve(__dirname, "../src/index"),
     output: {
         filename: "[name].[hash].js",
         path: path.resolve(__dirname, "../resource/view"),
@@ -186,7 +186,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             filename: "index.html",
-            template: path.resolve(__dirname, "../src/view/index.html"),
+            template: path.resolve(__dirname, "../src/index.html"),
             hash: true,
         }),
 
@@ -214,7 +214,7 @@ module.exports = {
         }),
 
         // 缓存
-        new HardSourceWebpackPlugin(),
+        // new HardSourceWebpackPlugin(),
 
         // 忽略moment
         new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
