@@ -214,7 +214,7 @@ module.exports = {
         }),
 
         // 缓存
-        // new HardSourceWebpackPlugin(),
+        new HardSourceWebpackPlugin(),
 
         // 忽略moment
         new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
